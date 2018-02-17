@@ -142,6 +142,7 @@ contract JuryVotes {
         p.Judgments[_codJudgment].judges[index].vote = _vote;
         p.Judgments[_codJudgment].judges[juryNOneero].voted = true;        
 
+
         return true;
     }
 
